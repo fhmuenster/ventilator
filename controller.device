@@ -1,0 +1,27 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables></variables>
+  <block type="txt" id="5L/sRwO$^|QQ6Ic#_R)B" x="221" y="41">
+    <mutation>
+      <port name="Input_0" type="Input"></port>
+      <port name="Input_1" type="Input"></port>
+      <port name="Output_0" type="Output"></port>
+      <port name="Motor_0" type="Motor"></port>
+      <port name="Motor_1" type="Motor"></port>
+      <port name="Counter_0" type="Counter"></port>
+    </mutation>
+    <field name="dropdown_Input_0">I1</field>
+    <field name="dropdown_Input_1">I2</field>
+    <field name="dropdown_Output_0">O3</field>
+    <field name="dropdown_Motor_0">M1</field>
+    <field name="dropdown_Motor_1">M2</field>
+    <field name="dropdown_Counter_0">C1</field>
+    <value name="Input_0">
+      <block type="pushbutton" id="AQO`%DSD8mwyATLU=Kjn"></block>
+    </value>
+    <value name="Motor_0">
+      <block type="encodermotor" id="O98f9[K..MQE:aNjo)fy">
+        <field name="EncoderMotorCounter">none</field>
+      </block>
+    </value>
+  </block>
+</xml>

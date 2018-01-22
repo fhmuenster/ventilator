@@ -1,0 +1,46 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <variables></variables>
+  <block type="controls_whileUntil" id="~*P=AcZs3xv-uLoUmtHP" x="169" y="144">
+    <field name="MODE">WHILE</field>
+    <value name="BOOL">
+      <block type="logic_boolean" id="~}?;a%9=1mX*k?U|WZFb">
+        <field name="BOOL">TRUE</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="controls_if" id="a[KlRC,EVQZD@`j}Pu=Y">
+        <mutation else="1"></mutation>
+        <value name="IF0">
+          <block type="logic_compare" id="_~c3]_rYv?V~yYD[/92j">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="math_number" id=")SO!9J{n98IuMf=]L(hR">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="txtButtonGetState" id="|4uo1?A-HpW8[|,:1bIj">
+                <field name="output_ports">I1</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="txtMotorDriveDistance" id=".`TVZGA=]|A_lN[df%*L">
+            <field name="output_ports">M1</field>
+            <value name="distance">
+              <block type="math_number" id="H1P0k,)DmL-H*a!/PP0p">
+                <field name="NUM">5</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="txtMotorStop" id="C8P~x7(GalDenJ(gZ{[b">
+            <field name="output_ports">M1</field>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+</xml>
