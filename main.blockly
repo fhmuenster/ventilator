@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <variables></variables>
-  <block type="controls_whileUntil" id="~*P=AcZs3xv-uLoUmtHP" x="169" y="144">
+  <block type="controls_whileUntil" id="~*P=AcZs3xv-uLoUmtHP" x="153" y="207">
     <field name="MODE">WHILE</field>
     <value name="BOOL">
       <block type="logic_boolean" id="~}?;a%9=1mX*k?U|WZFb">
@@ -14,8 +14,8 @@
           <block type="logic_compare" id="_~c3]_rYv?V~yYD[/92j">
             <field name="OP">EQ</field>
             <value name="A">
-              <block type="math_number" id=")SO!9J{n98IuMf=]L(hR">
-                <field name="NUM">1</field>
+              <block type="logic_boolean" id="#.D)NelY2Db?`(wW/nrw">
+                <field name="BOOL">TRUE</field>
               </block>
             </value>
             <value name="B">
